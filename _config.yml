@@ -4,7 +4,7 @@ email: thesometing@gmail.com
 description: "" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://someting.me" # the base hostname & protocol for your site
-github_username: castellar
+# github_username: castellar
 
 # Build settings
 markdown: kramdown
