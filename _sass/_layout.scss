@@ -2,12 +2,17 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+.logo {
+    margin-top: 20px;
+    font-size: 52pt;
+    font-family: Avenir, Nunito, sans-serif;
+    font-weight: 500;
 }
 
 .site-title {
