@@ -43,5 +43,5 @@
 
 <br>
 
-##**[썸팅 신청하기](http://goo.gl/forms/7WmIWAK97X){:target="_blank"}**##
+##**<a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a>**##
 *10월 4주 차부터 시작한 썸팅에 현재까지 45명의 직장인들이 참여하였습니다.*
