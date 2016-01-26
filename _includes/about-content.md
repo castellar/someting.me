@@ -83,5 +83,30 @@
 
 <br>
 
+
+####**<center>썸팅에 참여하신 분들이 다니는 회사들</center>**
+
+![쿠팡](/images/companies/coupang.png){: width='118px'}
+![구글](/images/companies/google.png){: width='118px'}
+![현대](/images/companies/hyundai.png){: width='118px'}
+![동부](/images/companies/dongbu.png){: width='118px'}
+![이에이](/images/companies/ea.png){: width='118px'}
+![율촌](/images/companies/yulchon.png){: width='118px'}
+![지에스](/images/companies/gsretail.png){: width='118px'}
+![할리스](/images/companies/hollys.png){: width='118px'}
+![홈플러스](/images/companies/homeplus.png){: width='118px'}
+![아이마켓](/images/companies/imarketkorea.png){: width='118px'}
+![록시땅](/images/companies/loccitane.png){: width='118px'}
+![로엔](/images/companies/loen.png){: width='118px'}
+![로레알](/images/companies/loreal.png){: width='118px'}
+![오라클](/images/companies/oracle.png){: width='118px'}
+![포스코](/images/companies/posco.png){: width='118px'}
+![샌디스크](/images/companies/sandisk.png){: width='118px'}
+![위메프](/images/companies/wemakeprice.png){: width='118px'}
+![이베이](/images/companies/ebay.png){: width='118px'}
+
+*<center>걱정하지 않으셔도 괜찮아요! 같은 회사에 다니는 분과는 약속을 잡아드리지 않을게요.</center>*
+<br>
+
 ##**<center><a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a></center>**##
 *<center>10월 4주 차부터 시작한 썸팅에 현재까지 123명의 직장인 분들이 참여하였고, 7커플이 탄생했습니다.</center>*
