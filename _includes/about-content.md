@@ -32,7 +32,7 @@
 <br>
 
 ##**<a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a>**##
-*10월 4주 차부터 시작한 썸팅에 현재까지 123명의 직장인 분들이 참여하였고, 7커플이 탄생했습니다.*
+*10월 4주 차부터 시작한 썸팅에 현재까지 271명의 직장인 분들이 참여했습니다.*
 
 <br>
 
@@ -109,4 +109,4 @@
 <br>
 
 ##**<center><a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a></center>**##
-*<center>10월 4주 차부터 시작한 썸팅에 현재까지 123명의 직장인 분들이 참여하였고, 7커플이 탄생했습니다.</center>*
+*<center>10월 4주 차부터 시작한 썸팅에 현재까지 271명의 직장인 분들이 참여했습니다.</center>*
