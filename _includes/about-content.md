@@ -31,8 +31,8 @@
 
 <br>
 
-##**<a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a>**##
-*10월 4주 차부터 시작한 썸팅에 현재까지 271명의 직장인 분들이 참여했습니다.*
+## **<a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a>** ##
+*10월 4주 차부터 시작한 썸팅에 현재까지 281명의 직장인 분들이 참여했습니다.*
 
 <br>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-####**<center>FAQ</center>**
+## **<center>FAQ</center>** ##
 
 **Q: 무료인가요?**
 <br>
@@ -70,7 +70,7 @@
 
 <br>
 
-####**<center>커뮤니티 가이드라인</center>**
+## **<center>커뮤니티 가이드라인</center>** ##
 
 **저희의 생각에 공감하시는 분들과 함께하고 싶어요.**
 
@@ -87,7 +87,7 @@
 <br>
 
 
-####**<center>썸팅에 참여하신 분들이 다니는 회사들</center>**
+## **<center>썸팅에 참여하신 분들이 다니는 회사들</center>** ##
 
 ![쿠팡](/images/companies/coupang.png){: width='118px'}
 ![구글](/images/companies/google.png){: width='118px'}
@@ -111,5 +111,5 @@
 *<center>걱정하지 않으셔도 괜찮아요! 같은 회사에 다니는 분과는 약속을 잡아드리지 않을게요.</center>*
 <br>
 
-##**<center><a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a></center>**##
+## **<center><a href="http://goo.gl/forms/7WmIWAK97X" onclick="trackOutboundLink('http://goo.gl/forms/7WmIWAK97X'); return false;" target="_blank">썸팅 신청하기</a></center>** ##
 *<center>10월 4주 차부터 시작한 썸팅에 현재까지 281명의 직장인 분들이 참여했습니다.</center>*
