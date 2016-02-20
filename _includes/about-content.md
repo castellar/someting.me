@@ -1,4 +1,4 @@
-! 어린왕자 여우 사진](/images/little-prince.jpg)
+![어린왕자 여우 사진](/images/little-prince.jpg)
 *"내가 좋아하는 사람이 나를 좋아해 주는 건 기적이야"*
 
 <br>
