@@ -1,0 +1,99 @@
+---
+layout: null
+title: Restaurants
+permalink: /restaurants/
+---
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 37.506815, lng: 127.056625},
+          zoom: 15
+        });
+
+        // Place man and woman markers
+        var manLatLng = new google.maps.LatLng(urlParams['mlat'], urlParams['mlng']);
+        var womanLatLng = new google.maps.LatLng(urlParams['wlat'], urlParams['wlng']);
+
+        var manMarkerIcon = {
+            url: '/images/man.png',
+            scaledSize: new google.maps.Size(20, 40),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(10, 40)
+        }
+        var womanMarkerIcon = {
+            url: '/images/woman.png',
+            scaledSize: new google.maps.Size(20, 40),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(10, 40)
+        }
+
+        var manMarker = new google.maps.Marker({
+              position: manLatLng,
+              map: map,
+              icon: manMarkerIcon
+            });
+        var womanMarker = new google.maps.Marker({
+              position: womanLatLng,
+              map: map,
+              icon: womanMarkerIcon
+            });
+
+        // Place restaurant markers
+        var infowindow = new google.maps.InfoWindow({
+              content: ''
+            });
+        var restaurantLatLng, restaurantMarker;
+        {% for restaurant in site.data.restaurants %}
+           restaurantLatLng = new google.maps.LatLng({{restaurant.lat}}, {{restaurant.lng}});
+           // TODO : Use HTML Marker - http://humaan.com/custom-html-markers-google-maps/
+           restaurantMarker = new google.maps.Marker({
+             position: restaurantLatLng,
+             map: map,
+             title: '{{restaurant.name}}',
+             price: '{{restaurant.price}}',
+             phone: '{{restaurant.phone}}'
+           });
+
+
+           // TODO : Change detail view for restaurant marker to side panel?
+           restaurantMarker.addListener('click', function() {
+                 infowindow.setContent('<b>' + this.title + '</b></br>' + this.phone + '</br>' + this.price);
+                 infowindow.open(map, this);
+               });
+        {% endfor %}
+      }
+    </script>
+    <script>
+      var urlParams;
+      (window.onpopstate = function () {
+        var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+        urlParams = {};
+        while (match = search.exec(query))
+          urlParams[decode(match[1])] = decode(match[2]);
+       })();
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-0R8lDdPCtytVoKyZwVFLJ6Pcqf-RGIY&callback=initMap" async defer></script>
+</body>
