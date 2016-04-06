@@ -1,5 +1,4 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 @import url("https://fonts.googleapis.com/css?family=Nunito:300");
 
 /*
@@ -1809,7 +1808,6 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
