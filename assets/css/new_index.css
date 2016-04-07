@@ -2705,11 +2705,11 @@
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			background-color: #4686a0;
+			color: rgba(255, 255, 255, 0.95);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+		background-image: url("images/overlay3.svg");
+			background-size: cover;
 		}
 
 			.main.style2 a {
@@ -2764,7 +2764,7 @@
 				.main.style2 .button.special {
 					background-color: #ffffff;
 					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #333 !important;
+					color: #4686a0 !important;
 				}
 
 					.main.style2 input[type="submit"].special:hover,
@@ -2795,6 +2795,37 @@
 			
 			#features h3 strong {
 				color: #4686a0;
+				font-weight: 600;
+			}
+
+			#features p {
+				font-size: 0.9em;
+			}
+
+			#register .button {
+				font-size: 1.3em;
+				margin: 0 0 1em 0;
+			}
+
+			#ending {
+				padding: 4em 0;
+			}
+
+			#ending .logo {
+				font-size: 3em;
+				color: #4686a0;
+				margin: 0em 0 0.3em 0;
+			}
+
+			#ending .email {
+				font-size: 0.7em;
+				color: #4686a0;
+				margin: 3em 0;
+				border: none;
+			}
+
+			#ending .email:hover {
+				color: #6199c4;
 			}
 
 			.main ul.reviews li {
@@ -2802,7 +2833,7 @@
 				padding: 0.5em 1em;
 				margin: 0.5em;
 				text-align: left;
-				background-color: rgba(255, 255, 255, 0.125) !important;		 
+				background-color: rgba(255, 255, 255, 0.2) !important;		 
 			}
 
 			.main ul.questions li {
@@ -3007,7 +3038,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 2em 0 ;
+		padding: 2em 0 2em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3101,6 +3132,10 @@
 			margin: 0;
 		}
 
+		#footer .email {
+			font-size: 0.7em;
+		}
+
 		#footer .contacts {
 			font-size: 0.8em;
 			margin: 0;
@@ -3109,7 +3144,7 @@
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 0 0 0 0;
 			padding: 0;
 		}
 
@@ -3232,7 +3267,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 	}
