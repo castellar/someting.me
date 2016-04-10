@@ -2267,7 +2267,7 @@
 
 		.icon.major {
 			text-decoration: none;
-			color: #4686a0;
+			color: #4982A7;
 			cursor: default;
 			display: inline-block;
 			margin: 0 0 1.5em 0;
@@ -2706,10 +2706,9 @@
 		}
 
 		.main.style2 {
-			background-color: #4686a0;
+			background-color: #4982A7;
 			color: rgba(255, 255, 255, 0.95);
 			background-attachment: fixed,							fixed;
-		background-image: url("images/overlay3.svg");
 			background-size: cover;
 		}
 
@@ -2765,7 +2764,7 @@
 				.main.style2 .button.special {
 					background-color: #ffffff;
 					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #4686a0 !important;
+					color: #4982A7 !important;
 				}
 
 					.main.style2 input[type="submit"].special:hover,
@@ -2795,7 +2794,7 @@
 
 			
 			#features h3 strong {
-				color: #4686a0;
+				color: #4982A7;
 				font-weight: 600;
 			}
 
@@ -2814,13 +2813,13 @@
 
 			#ending .logo {
 				font-size: 3em;
-				color: #4686a0;
+				color: #4982A7;
 				margin: 0em 0 0.3em 0;
 			}
 
 			#ending .email {
 				font-size: 0.7em;
-				color: #4686a0;
+				color: #4982A7;
 				margin: 3em 0;
 				border: none;
 			}
@@ -2847,7 +2846,7 @@
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #4982A7;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
@@ -2916,7 +2915,7 @@
 			#header .button.special {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #4982A7 !important;
 			}
 
 				#header input[type="submit"].special:hover,
@@ -3044,7 +3043,7 @@
 
 	#footer {
 		padding: 2em 0 2em 0 ;
-		background-color: #4686a0;
+		background-color: #4982A7;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
@@ -3105,7 +3104,7 @@
 			#footer .button.special {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #4982A7 !important;
 			}
 
 				#footer input[type="submit"].special:hover,
