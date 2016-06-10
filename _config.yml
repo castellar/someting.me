@@ -2,8 +2,8 @@
 title: someting
 email: thesometing@gmail.com
 description: 직장인 점심시간 소개팅, 썸팅 # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://someting.me" # the base hostname & protocol for your site
+baseurl: "/someting.me/" # the subpath of your site, e.g. /blog/
+url: "http://castellar.github.io" # the base hostname & protocol for your site
 # github_username: castellar
 
 # Build settings
