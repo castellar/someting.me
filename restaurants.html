@@ -33,13 +33,13 @@ permalink: /restaurants
         var womanLatLng = new google.maps.LatLng(urlParams['wlat'], urlParams['wlng']);
 
         var manMarkerIcon = {
-            url: '/images/man.png',
+            url: '{{site.base-url}}/images/man.png',
             scaledSize: new google.maps.Size(20, 40),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(10, 40)
         }
         var womanMarkerIcon = {
-            url: '/images/woman.png',
+            url: '{{site.base-url}}/images/woman.png',
             scaledSize: new google.maps.Size(20, 40),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(10, 40)
